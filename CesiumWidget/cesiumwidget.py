@@ -15,6 +15,7 @@ class CesiumWidget(DOMWidget):
 
     zoomto = Unicode(sync=True)
     flyto = Unicode(sync=True)
+    region = Unicode(sync=True)
     
     animation = Bool(True, sync=True)
     base_layer_picker = Bool(True, sync=True)
